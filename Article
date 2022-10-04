@@ -1,92 +1,55 @@
-\documentclass{arti
-cle}
-\usepackage[utf8]{i
-nputenc}
-\title{SELF 
-INTROUCTION} 
-\author{P.Chandana}
-\date{\today}
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx}
+%opening
+\tableofcontents
+\title{RESUME}
+\author{Chandana}
+
 \begin{document}
+
 \maketitle
-\centering
-\textbf{PERSONAL 
-INFORMATION} 
-\flushleft
-\vspace{1cm}
-\textbf 
-{NAME:}P.Chandana\\
-\vspace{0.5cm}
-\textbf{ID:}B191903
+\section{NAME AND ADDRESS}
+\subsection{Name}
+\begin{large}
+\textbf{Name:}P.Chandana
 \\
-\vspace{0.5cm}
-\textbf{BRANCH:}Com
-puter Science and 
-Engineering \\
-\vspace{0.5cm}
-\textbf{CLASS:}Cse-
-C1\\
-\vspace{0.5cm}
-\textbf{ADDRESS:}
-Vikarabad\\
-\vspace{0.5cm}
-\textbf{DIST:} Vikarabad\\
-\clearpage
-\maketitle
+\subsection{Address}
+\textbf{District:}Vikarabad \\
+\textbf{Mandal:}marpally \\
+\textbf{Village:kalkhoda}
+\end{large}
+\section{DETAILS OF MARKS}
+\begin{table}[h]
 \centering
-\vspace{2cm}
-\begin{table}
-    \centering
-    \textbf{SEMISTE
-    R RESULTS}\\
-    \vspace{1cm}
-    \textbf{PUC 
-    MARKS:}\\
-    \vspace{1cm}
-    \begin{tabular}
-    {|c||c||c|}
-    \hline
-    S.No &  SUBJECT 
-    NAME & MARKS\\
-    \hline
-    1 & ENGLISH & 
-    98\\
-    \hline
-    2 & MATHEMATICS 
-    & 95\\
-    \hline
-    3 & PHYSICS & 
-    93\\
-    \hline
-    4 & EVS& 95\\
-    \hline
-    5 & IT & 97\\
-    \hline
-    \end{tabular}
-    \caption{puc 
-    results}
-    \label{tab:my_l
-    abel}
-    \vspace{1cm}
-    \textbf{E1 
-    MARKS:}\\
-    \vspace{1cm}
-    \begin{tabular}
-    {|c||c||c|}
-    \hline
-    S.No & SUBJECT 
-    NAME & MARKS\\
-    \hline
-    1 & CALCULUS & 
-    96\\
-    \hline
-    2 & pps & 95\\
-    \hline
-    3 & chemistry & 95\\
-    \hline
-    4 & linear algebra & 91\\
-    \hline
-    \end{tabular}
-    \caption{E1 results}
-    \label{tab:my_label}
+\begin{tabular}{|l|l|l|l|l|}
+
+\hline
+\textbf{S.no }& \textbf{Class} & \textbf{cgpa secured} \\
+\hline
+1 & 10 & 9.8 \\
+\hline
+2 & PUC & 9.4 \\
+\hline
+
+\end{tabular}
 \end{table}
-\end{document}
+\section{EXTRA CURRICULAR ACTIVITIES / ACHIVEMENTS}
+\begin{itemize}
+\begin{large}
+\item I used to play chess but not so expert
+\end{large}
+\end{itemize}
+\section{HOBBIES}
+\texttt{In my free time i used to watch movies and i will solve some mental ability questions}
+\section{IMAGE}
+\begin{figure}[h]
+\centering
+\includegraphics{index.jpeg}
+\caption{Be calm like a bird}
+x^2
+
+\end{figure}
