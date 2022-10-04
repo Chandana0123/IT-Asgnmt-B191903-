@@ -1,0 +1,92 @@
+\documentclass{arti
+cle}
+\usepackage[utf8]{i
+nputenc}
+\title{SELF 
+INTROUCTION} 
+\author{P.Chandana}
+\date{\today}
+\begin{document}
+\maketitle
+\centering
+\textbf{PERSONAL 
+INFORMATION} 
+\flushleft
+\vspace{1cm}
+\textbf 
+{NAME:}P.Chandana\\
+\vspace{0.5cm}
+\textbf{ID:}B191903
+\\
+\vspace{0.5cm}
+\textbf{BRANCH:}Com
+puter Science and 
+Engineering \\
+\vspace{0.5cm}
+\textbf{CLASS:}Cse-
+C1\\
+\vspace{0.5cm}
+\textbf{ADDRESS:}
+Vikarabad\\
+\vspace{0.5cm}
+\textbf{DIST:} Vikarabad\\
+\clearpage
+\maketitle
+\centering
+\vspace{2cm}
+\begin{table}
+    \centering
+    \textbf{SEMISTE
+    R RESULTS}\\
+    \vspace{1cm}
+    \textbf{PUC 
+    MARKS:}\\
+    \vspace{1cm}
+    \begin{tabular}
+    {|c||c||c|}
+    \hline
+    S.No &  SUBJECT 
+    NAME & MARKS\\
+    \hline
+    1 & ENGLISH & 
+    98\\
+    \hline
+    2 & MATHEMATICS 
+    & 95\\
+    \hline
+    3 & PHYSICS & 
+    93\\
+    \hline
+    4 & EVS& 95\\
+    \hline
+    5 & IT & 97\\
+    \hline
+    \end{tabular}
+    \caption{puc 
+    results}
+    \label{tab:my_l
+    abel}
+    \vspace{1cm}
+    \textbf{E1 
+    MARKS:}\\
+    \vspace{1cm}
+    \begin{tabular}
+    {|c||c||c|}
+    \hline
+    S.No & SUBJECT 
+    NAME & MARKS\\
+    \hline
+    1 & CALCULUS & 
+    96\\
+    \hline
+    2 & pps & 95\\
+    \hline
+    3 & chemistry & 95\\
+    \hline
+    4 & linear algebra & 91\\
+    \hline
+    \end{tabular}
+    \caption{E1 results}
+    \label{tab:my_label}
+\end{table}
+\end{document}
