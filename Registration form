@@ -1,0 +1,37 @@
+<html>
+<title>Registration form </title>
+<body>
+<font color=white>
+<h1 align="center"> <font color="violet">STUDENT REGISTRATION FORM </font></h1>
+<table align="center" bgcolor="violet" cellpadding="2" cellspacing="5" >
+
+<tr><td>FIRST NAME</td><td><input type="text" name="a">(max 30 charecters a-z and A-Z)</td></tr>
+<tr><td>LAST NAME</td><td><input type="text" name="B">(max 30 charecters a-z and A-Z)</td>
+<tr><td>DATE OF BIRTH</td><td><select><option value="Day">Day:
+                                      <option value="sunday">sunday
+                                       </select><select><option value="a">Month:</select><select><option value="y">Year:</select></td>
+<tr><td>EMAIL ID</td><td><input type="text" name="a"></td>
+<tr><td>MOBILE NUMBER </td><td><input type="text" name="c">(10 digit numbers)</td>
+<tr><td>GENDER</td><td>Male<input type="radio" name="t">Female<input type="radio" name="t"></td>
+<tr><td>ADDRESS</td><td><textarea ></textarea></td>
+<tr><td>CITY</td><td><input type="text" name="f">(max 30 characters a-z and A-Z)</td>
+<tr><td>PINCODE</td><td><input type="text" name="d">(6 digit number)</td>
+<tr><td>STATE</td><td><input type="text" name="cgsu">(max 30 charecters a-z and A-Z)</td>
+<tr><td>COUNTRY</td><td><input placeholder="India"></td>
+<tr><td>HOBBIES</td><td>Drawing<input type="checkbox" name="a">Singing<input type="checkbox" name="a">Dancing<input type="checkbox" name="a"><input type="text" name="d"</td>
+<tr><td>QUALIFICTION</td><td><table border="1">
+ <tr><td>si.no.Examination</td> <td>board</td><td>Percentage</td><td>Year of passing </td>
+                                 <tr><td>Class X</td><td><input type="text" name="ab"></td><td><input type="text" name="bb"></td><td><input type="text" name="bb"></td>
+                                 <tr><td>Class XII</td><td><input type="text" name="ab"></td><td><input type="text" name="bb"></td><td><input type="text" name="bb"></td>
+                                 <tr><td>Graduation</td><td><input type="text" name="ab"></td><td><input type="text" name="bb"></td><td><input type="text" name="bb"></td>
+                                 <tr><td>Masters</td><td><input type="text" name="ab"></td><td><input type="text" name="bb"></td><td><input type="text" name="bb"></td>
+<tr><td></td><td>(10 charecters maximium)</td><td>(upto 2 decimal)</td></td>
+</table>
+<tr><td>COURSES APPLIED FOR</td><td>BCA<input type="radio" name="a">B.com<input type="radio" name="a">B.A<input type="radio" name="a">
+<tr><td><input type="submit" value="submit">&nbsp<input type="submit" value="reset">
+</font>
+
+</table>
+</body>
+
+</html>
